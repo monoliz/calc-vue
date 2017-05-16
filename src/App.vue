@@ -47,9 +47,8 @@ export default {
       this.operations[oper[0]] = oper[1]
     },
     inputsToNumbers (input) {
-        if (input[1] == 0) {this.result = 'You left at least one input empty'}
-        this.numbers[input[0]] = input[1]
-      
+      if (input[1] == 0) {this.result = 'You left at least one input empty'}
+      this.numbers[input[0]] = input[1]  
     },
     makeCalculations () {
       const self = this
@@ -64,11 +63,10 @@ export default {
         return operationsFunctions[self.operations[c-1]] (a,b)
       }).toFixed(2)
       } else {
-     this.result = 'Please inpul all numbers and select all operations' }
+      this.result = 'Please inpul all numbers and select all operations' }
     }
-    }
+  }
 }
-  
 </script>
 
 <style>
