@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+Simple calculator which generates nums and operations and compute final answer.
+
 ## Build Setup
 
 ``` bash
@@ -15,4 +17,3 @@ npm run dev
 npm run build
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
