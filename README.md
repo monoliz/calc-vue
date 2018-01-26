@@ -2,7 +2,7 @@
 
 > A Vue.js project
 
-Simple calculator which generates nums and operations and compute final answer.
+Simple calculator which generates fields for nums and operations and compute final answer.
 
 ## Build Setup
 
